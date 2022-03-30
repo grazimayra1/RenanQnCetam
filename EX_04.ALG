@@ -21,11 +21,13 @@ Inicio
    leia(salario)
    escreva(">>> informe a quantidade de vendas deste no mês: ")
    leia (vendas)
+   comissao <- (0.15 * vendas)
+   salarioFinal <- (salario + comissao)
    //Cálculo da comissão e salário final
-   escreva(comissao, ">>>>>>>>>>RESUMO<<<<<<<<<<<<<")
+   escreval(">>>>>>>>>>RESUMO<<<<<<<<<<<<<")
    escreval("--Nome: ", nome)
    escreval ("--Salário: ", salario)
-   escreval ("--Salário Final (salário + comissao):", salariofinal)
-   escreval ("<><><><><><><><><><><><><><><><><><<><><><><><><><><><")
+   escreval ("--Salário Final:", salarioFinal)
+
 
 Fimalgoritmo
