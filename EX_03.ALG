@@ -1,4 +1,4 @@
-Algoritmo "ex03"
+Algoritmo "EX_03"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -16,8 +16,8 @@ Inicio
    leia(distancia)
    escreva ("Digite o combustível gasto: ")
    leia (combustivel)
-   consumo_medio:= (distancia + combustivel / 2)
-   escreval ("O consumo médio de combustível do veículo é: ", consumo_medio)
+   consumo_medio <- (combustivel / distancia)
+   escreval ("O consumo médio de combustível do veículo é: ", consumo_medio:2:2, " Litro/KM" )
 
 
 Fimalgoritmo
